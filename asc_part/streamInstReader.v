@@ -183,7 +183,7 @@ wire w_driveReadDone;
 wire w_freeReadDone;
 wire w_fireReadDone;
 reg [127:0] read_data_reg;
-cFifo1_user u_cFifo1_user_0(
+cFifo1_user u_cFifo1_user_1(
     .i_drive     ( RD_DONE     ),
     .o_free      (       ),
     .o_driveNext ( w_driveReadDone ),
